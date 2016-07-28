@@ -24,7 +24,6 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    rake (10.4.2)
     ripl (0.7.1)
       bond (~> 0.5.1)
     ripl-multi_line (0.3.1)
@@ -64,12 +63,14 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
-  rake
   sinatra
   sinatra-activerecord
   sinatra-contrib
   sqlite3
   tux
+
+RUBY VERSION
+   ruby 2.2.4p230
 
 BUNDLED WITH
    1.12.5
